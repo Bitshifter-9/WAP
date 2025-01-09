@@ -31,4 +31,9 @@ function x(y){}
 x(z) (you should call the function like python)
 x is function,y is variable
 
+in python str+num raises error ,
+but in js str + num gives strnum, it converts num to str
+"nst"+27=nst27
+"47"-37=10 it converts to num
+"nst"-20 = NaN (means error)
 */
