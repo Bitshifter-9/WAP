@@ -36,4 +36,56 @@ but in js str + num gives strnum, it converts num to str
 "nst"+27=nst27
 "47"-37=10 it converts to num
 "nst"-20 = NaN (means error)
+
+72 is decimal
+072 is octal
+0101b if b is there in last then it is binary
+// oxAB9 starting ox is there then it is 
+learn about complex num
+
+round 
+Math.round() it rounds
+Math.ceil()  it take nearst next int
+Math.floor()  it take nearest previous int
+
+random number
+Math.random()
+Math.floor(Math.random()*6)+1  // it starts from 1 to 6, 1 and 6 are included , and Math.floor helps to get integer
+Math.ceil(Math.random()) // it also gives integer 
+Math.round(Math.random()) // it also gives int
+// check diif b/t these numbers
+
+js f-strings
+let x="pranav";
+let y=`${x} hi`  // use backticks (`)
+y= pranav hi
+
+see string methods in js
+string.includes()
+
+diff b/w null and undifine
+undifine is default value gives by js
+null is gives by us
+
+ex:
+let x;
+console.log(x) // it prints undifine
+
+let x=null
+console.log(x) // it prints null
+
+falsy values and truthy values
+check w3 schools,js type conversion table
+
+typeof // check these inbuilt function
+
+check operators in w3 schools
+ARITHMETICS OPERATORS
+COMERASION OPERATORS (===,==,=,!=,!==)
+TYPE CONVERSION CHART
+LOGICAL OPERATORS (&&,\\,!)
+bitwise operators
+
+typeof null is object (it is error when created)
+typeof undfined is undfined 
 */
