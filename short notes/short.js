@@ -88,4 +88,6 @@ bitwise operators
 
 typeof null is object (it is error when created)
 typeof undfined is undfined 
+
+getName() // used for get local variable to outside 
 */
