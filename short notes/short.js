@@ -1,4 +1,4 @@
-/* 
+/*
 1. array.length (for length of the array)
 2.array.push() (for adding element to array at the last,like append in python for list;if you assign a variable to it you can return it)
 3. array.pop() (removes the last element from the array ; if you assing a varible to it , you can return it  )
@@ -20,7 +20,7 @@ for loop in js, there are different types of for loop in js
 for (const value of iterable) {
 
 }
-compare with python 
+compare with python
 for i in range x:
 here value=i and x=iterable
 
@@ -40,18 +40,18 @@ but in js str + num gives strnum, it converts num to str
 72 is decimal
 072 is octal
 0101b if b is there in last then it is binary
-// oxAB9 starting ox is there then it is 
+// oxAB9 starting ox is there then it is
 learn about complex num
 
-round 
+round
 Math.round() it rounds
 Math.ceil()  it take nearst next int
 Math.floor()  it take nearest previous int
 
 random number
 Math.random()
-Math.floor(Math.random()*6)+1  // it starts from 1 to 6, 1 and 6 are included , and Math.floor helps to get integer
-Math.ceil(Math.random()) // it also gives integer 
+Math.floor(Math.random()*6)+1  // it starts from 1 to 6, 1 is included,6 is excluded , and Math.floor helps to get integer
+Math.ceil(Math.random()) // it also gives integer
 Math.round(Math.random()) // it also gives int
 // check diif b/t these numbers
 
@@ -87,7 +87,30 @@ LOGICAL OPERATORS (&&,\\,!)
 bitwise operators
 
 typeof null is object (it is error when created)
-typeof undfined is undfined 
+typeof undfined is undfined
 
-getName() // used for get local variable to outside 
+getName() // used for get local variable to outside
+
+check prototypes (Number methods)
+
+.toString // used to convert string
+
+x.toFxied()
+x.toPrecision() // it gives number of digits we want and it will round off the number
+
+console.log(x.toString().length)
+console.log(typeof x.string().length)
+x.abs()
+x.ceil()
+x.floor()
+x.min() // console.log(x.min(1,2,34)) gives min value
+x.max()
+console.log(x.toString) // it converts to function with parameter x and function name as toString
+
+console.log(Math.floor((Math.random()*(max-min+1))+min)) // it prints number between range max and min
+let x=100;
+console.log(++x) prints 101 val;ue is 101
+console.log(x++) prints 100 but value changes to 101, just it stores the value
 */
+// const x = 123;
+// console.log(x.toString())
