@@ -111,6 +111,40 @@ console.log(Math.floor((Math.random()*(max-min+1))+min)) // it prints number bet
 let x=100;
 console.log(++x) prints 101 val;ue is 101
 console.log(x++) prints 100 but value changes to 101, just it stores the value
+
+switch
+let a=2;
+switch(a){
+  case 1:
+    console.log(1)
+  case 2:
+    console.log(2)}
+  case 3:
+    console.log(3)}
+  defualt:
+    console.log("dsc")}
+// it prints 2,3 and dsc in new lines
+
+if (5<2){
+    console.log(5)
+} else {
+    console.log(2)
+}
+switch and if-else check in w3 school
+
+terminaory operator
+let isEven = x%2==0 ? true : false
+
+loops:
+for loop
+
+for (let i=0;i<10;i++){
+console.log(i)
+
+}
+for off
+for in check them
+while loop
 */
 // const x = 123;
 // console.log(x.toString())
