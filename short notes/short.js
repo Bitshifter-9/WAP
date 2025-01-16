@@ -145,6 +145,28 @@ console.log(i)
 for off
 for in check them
 while loop
+two types of whiles are there
+while(){}
+do{}while
+
+terniory operator it is shortcut off if , else operator
+ex:
+(a>1000) ? console.log("a") :console.log("b")
+
+if else vs switch case
+if (a>12000){
+  console.log(a)}
+else {
+console.log(b)}
+
+switch (true){
+case (a>12000):
+  console.log(a)
+  break;
+default{
+  console.log(b)}}
+
+
 */
 // const x = 123;
 // console.log(x.toString())
