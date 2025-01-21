@@ -167,6 +167,25 @@ default{
   console.log(b)}}
 
   object==dict in python
+
+funcion in js
+arrow function
+div: (a,b) => a*b;
+
+Math.Pow(x,3)
+
+in if codition "false" gives true; booolen false will not exucte the condition
+if (false){}
+if ("false"){}
+if (""){}
+
+if the string is empty then the condition is false so if condition will not exucte
+
+.unshift() // it is like .push() but it adds element at the starting of arrya
+if assigin a varaible to it , when you do consolelog it will give length of the updaed arrya
+
+.shift() // it is like .pop() but removes first element of arrya,
+and you can decalere to varable and print the deleted value
 */
 // const x = 123;
 // console.log(x.toString())
