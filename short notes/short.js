@@ -166,7 +166,7 @@ case (a>12000):
 default{
   console.log(b)}}
 
-
+  object==dict in python
 */
 // const x = 123;
 // console.log(x.toString())
