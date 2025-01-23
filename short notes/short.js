@@ -53,6 +53,7 @@ Math.random()
 Math.floor(Math.random()*6)+1  // it starts from 1 to 6, 1 is included,6 is excluded , and Math.floor helps to get integer
 Math.ceil(Math.random()) // it also gives integer
 Math.round(Math.random()) // it also gives int
+console.log(Math.floor((Math.random()*(max-min+1))+min)) // it prints number between range max and min
 // check diif b/t these numbers
 
 js f-strings
@@ -107,7 +108,7 @@ x.min() // console.log(x.min(1,2,34)) gives min value
 x.max()
 console.log(x.toString) // it converts to function with parameter x and function name as toString
 
-console.log(Math.floor((Math.random()*(max-min+1))+min)) // it prints number between range max and min
+
 let x=100;
 console.log(++x) prints 101 val;ue is 101
 console.log(x++) prints 100 but value changes to 101, just it stores the value
@@ -187,6 +188,37 @@ if assigin a varaible to it , when you do consolelog it will give length of the 
 .shift() // it is like .pop() but removes first element of arrya,
 and you can decalere to varable and print the deleted value
 
+"100"+1=1001 //bug
+"100"-1=99 //bug
+100+1=101
+"2" - "2" = 0
+
+first browser NETSCAPE WITH HTML AND CSS
+Brnan Eich created JS in 10 days
+
+Variable in js will store data
+
+//object is non-premitive and remaing all data types are premitive
+// null // x= null data type , to keep intentional empty, where undife we just leave like (let x;)
+symbol("cb")
+
+falsey experssions:
+false,0,NaN,undeined,Null,empty string""/"
+
+
 */
 // const x = 123;
 // console.log(x.toString())
+//.includes()  //str.includes("word") prints true or false,//str.includes("java",5) search starts from index 5
+
+//.indexOf() //gives index , if word is not present in str prints -1 // str.indexOf("java",5) search starts from index 5
+//.replace() // str.replace("word","js")
+// .trim()  // removes spaces at start and end of string
+//isNaN() // you check same like typeof (isNan(42)) // for string it gives true , for numbers and infinite it gives false
+
+// operators and (&&),or (||),Not(!)
+
+// break and continue
+
+// for (let i in books){console.log(books[i])}
+// for (let book of books){console.log(book)}
