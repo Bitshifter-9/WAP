@@ -186,6 +186,7 @@ if assigin a varaible to it , when you do consolelog it will give length of the 
 
 .shift() // it is like .pop() but removes first element of arrya,
 and you can decalere to varable and print the deleted value
+
 */
 // const x = 123;
 // console.log(x.toString())
