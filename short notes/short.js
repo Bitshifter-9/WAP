@@ -84,7 +84,7 @@ check operators in w3 schools
 ARITHMETICS OPERATORS
 COMERASION OPERATORS (===,==,=,!=,!==)
 TYPE CONVERSION CHART
-LOGICAL OPERATORS (&&,\\,!)
+LOGICAL OPERATORS (&&,||,!)
 bitwise operators
 
 typeof null is object (it is error when created)
@@ -96,14 +96,12 @@ check prototypes (Number methods)
 
 .toString // used to convert string
 
-x.toFxied()
+x.toFxied(n) // converts number to a string and round off by n,if empty then intger
 x.toPrecision() // it gives number of digits we want and it will round off the number
 
 console.log(x.toString().length)
 console.log(typeof x.string().length)
-x.abs()
-x.ceil()
-x.floor()
+.abs() // Math.abs() absolute value , for null = 0,for string is NaN
 x.min() // console.log(x.min(1,2,34)) gives min value
 x.max()
 console.log(x.toString) // it converts to function with parameter x and function name as toString
